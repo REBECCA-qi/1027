@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>圣杯布局</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .top{
+    background-color: lavenderblush;
+    text-shadow: 2px 2px 2px red;
+    height: 200px;
+    width: 100%;
+  }
+  .top p{
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    font-size: 100px;
+    letter-spacing: 25px;
+    color: lightcoral;
+  }
+  .middle{
+    margin-top: 50px;
+    min-width: 400px;
+    background-color: white;
+    padding: 0 400px;
+    height: 400px;
+  }
+  .main{
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 400px;
+    float: left;
+  }
+  .main p{
+    font-size: 16px;
+    text-indent: 2em;
+    line-height: 58px;
+    margin: 0 10px;
+  }
+  .left{
+    background-color: aliceblue;
+    width: 350px;
+    height: 400px;
+    float: left;
+  }
+  .right{
+    width: 400px;
+    height: 400px;
+    float: left;
+  }
+  .left{
+    margin-left: -100%;
+    position: relative;
+    left: -400px;
+  }
+  .right{
+    margin-left: -400px;
+    position: relative;
+    left: 400px;
+  }
+  .right img{
+    margin: 20px 20px;
+  }
+  li {
+    margin:50px 30px;
+  }
+</style>
+<body>
+  <header>
+    <div class="top">
+      <p>上海电机学院</p>
+    </div>
+  </header>
+  <div class="middle">
+    <div class="main">
+      <p>上海电机学院（Shanghai DianJi University）是一所面向先进制造业及现代服务业，以工学为主，经济学、管理学、文学、艺术学等学科协调发展的的普通高等院校；入选“服务国家特殊需求人才培养项目”专业学位研究生试点单位、教育部“卓越工程师教育培养计划”高校、全国首批CDIO试点院校、全国职业教育先进单位、国家级新工科研究与实践项目、上海市首批深化创新创业教育改革示范高校、上海高等学校一流本科建设引领计划、上海高等学校一流研究生教育引领计划，为“服务国家特殊需求硕士专业学位人才培养项目”试点单位联盟副理事长单位、CDIO工程教育联盟成员单位。</p>
+      </div>
+    <div class="left">
+      <ul>
+        <li>学校概况</li>
+        <li>历史发展</li>
+        <li>学术研究</li>
+        <li>文化传统</li>
+        <li>知名校友</li>
+      </ul>
+    </div>
+    <div class="right">
+      <img src="../img/上海电机学院.jpg" height="350" width="350"/></div>
+  </div>
+</body>
+</html>

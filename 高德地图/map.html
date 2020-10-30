@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>map</title>
+  <style>
+    #container{
+      width: 100%;
+      height: 600px;
+    }
+  </style>
+
+</head>
+<body>
+<div id="container" ></div>
+
+</body>
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.8&key=9120ef2a578898acf54d107743026bed"></script>
+<script>
+  window.onload = function(){
+    // var map = new AMap.Map("container", {
+    //   zoom: 20,
+    //   center: [121.480652,31.271136],
+    //   resizeEnable: true,
+    //   viewMode:'3D'
+    // });
+
+  var map = new AMap.Map('container', {
+    center: [121.480652,31.271136],
+    layers: [
+      new AMap.TileLayer.Satellite(),
+      new AMap.TileLayer.RoadNet(),
+    ],
+    resizeEnable: true,
+    zoom: 17
+  });
+
+    var marker = new AMap.Marker({
+      position: new AMap.LngLat(121.477945,31.270881),
+      title: "位置标题"
+    });
+    map.add(marker);
+  };
+</script>
+</html>

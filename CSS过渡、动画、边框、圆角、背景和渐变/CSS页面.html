@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css</title>
+    <style>
+        section{
+            display: flex;
+            margin-top: 50px;
+        }
+        .box1{
+            width: 200px;
+            height: 200px;
+            transition:all 2s ease 0.5s;
+            padding-top: 10px;
+        }
+        .box1:hover{
+            width: 300px;
+            height: 300px;
+            transform: rotateZ(180deg) translate(50px,50px) scale(1.2);
+        }
+        .box2{
+            margin-left: 50px;
+            width: 200px;
+            height: 200px;
+            /*background-color: red;*/
+            animation-name: change;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            /*animation-delay: 0.5s;*/
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            border: 10px solid transparent;
+            border-image-source: url("img/边框.jpg");
+            border-image-slice: 50;
+            border-image-repeat: round;
+        }
+        @keyframes change {
+            from{
+                background-image: url("img/图片.png");
+            }
+            to{
+                background-image: url("img/1.jpg");
+            }
+            /*0%{*/
+            /*    background-color: red;*/
+            /*}*/
+            /*50%{*/
+            /*    background-color: pink;*/
+            /*}*/
+            /*100%{*/
+            /*    background-color: purple;*/
+            /*}*/
+        }
+        .box3{
+            margin-left: 50px;
+            padding: 30px 20px;
+            border-radius: 15px 50px;
+            background-image: linear-gradient(to bottom right,black,purple,pink);
+            width: 200px;
+            height: 158px;
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <div class="box1">
+        <img src="img/图片.png" height="200" width="200"/>
+    </div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</section>
+</body>
+</html>

@@ -1,0 +1,58 @@
+{
+  "id": "2181140",
+  "name": "all",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "731261",
+      "name": "登录账号",
+      "font_class": "guanbi",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "5943957",
+      "name": "上传",
+      "font_class": "shangchuan",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "8358941",
+      "name": "英文2",
+      "font_class": "yingwen",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    },
+    {
+      "icon_id": "14112857",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "700855",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "834840",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "1148896",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    }
+  ]
+}

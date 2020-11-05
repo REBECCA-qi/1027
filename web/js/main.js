@@ -1,12 +1,5 @@
-let myImage = document.querySelector('img');
-myImage.onclick = function() {
-  let mySrc = myImage.getAttribute('src');
-  if(mySrc === '../img/今日营业中.jpg') {
-    myImage.setAttribute('src', '../img/1.jpg');
-  } else {
-    myImage.setAttribute('src', '../img/今日营业中.jpg');
-  }
-}
+alert("欢迎进入林宥嘉的主页")
+
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 function setUserName() {
@@ -23,4 +16,16 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function() {
   setUserName();
 }
+let myImage = document.querySelector('img');
+myImage.onclick = function() {
+  let mySrc = myImage.getAttribute('src');
+  if(mySrc === 'img/今日营业中.jpg') {
+    myImage.setAttribute('src', 'img/1.jpg');
+  } else {
+    myImage.setAttribute('src', 'img/今日营业中.jpg');
+  }
+}
 
+window.onbeforeunload = function(){
+  return"确定离开页面吗？";
+}

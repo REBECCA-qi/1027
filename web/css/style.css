@@ -1,12 +1,51 @@
-h1{
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: papayawhip;
+}
+.header{
+  /*background-color: papayawhip;*/
+  height: 150px;
+}
+.title h1{
   text-align: center;
   font-style: initial;
+  line-height: 100px;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.titleButton{
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+}
+button{
+  width: 100px;
+  height: 35px;
+  border: 2px solid #eae2c9;
+  position: absolute;
+  background-color: #eae2c9;
+  border-radius: 5px;
+}
+.movie{
+  height: 210px;
+  /*background-color: aliceblue;*/
+}
+.mov{
+  width: 300px;
+  height: 200px;
+  margin: 30px auto;
 }
 h3{
   color: saddlebrown;
 }
 .info{
-  margin-left: 15px;
+  height: 200px;
+  width: 1200px;
+  /*background-color: aquamarine;*/
+  margin: 30px auto;
 }
 .info table{
   margin-left: 15px;
@@ -18,7 +57,10 @@ table tr td span{
   font-weight: bold;
 }
 .works {
-  margin-left: 15px;
+  height: 300px;
+  width: 1200px;
+  /*background-color: darkkhaki;*/
+  margin: 30px auto;
 }
 .works ul{
   list-style: none;
@@ -34,7 +76,9 @@ table tr td span{
   font-weight: normal;
   font-style: oblique;
 }
-.movie {
-  width: 250px;
-  margin:0 auto;
+.user{
+  height: 300px;
+  /*background-color: darkgrey;*/
+  margin: 30px 15px;
 }
+

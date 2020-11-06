@@ -81,4 +81,44 @@ table tr td span{
   /*background-color: darkgrey;*/
   margin: 30px 15px;
 }
+.tabsbox{
+  height: 400px;
+  width: 900px;
+  margin: 0 auto;
+  border: 1px solid lightsalmon;
+  position: relative;
+}
+nav ul{
+  overflow: hidden;
+}
+nav ul li{
+  float: left;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  position: relative;
+}
+nav ul li.liactive {
+  border-bottom: 2px solid #fff;
+  z-index: 9;
+}
 
+.firstnav{
+  height: 50px;
+  width: 800px;
+}
+.firstnav ul{
+  list-style: none;
+}
+.firstnav span{
+  float: left;
+  height: 50px;
+  width: 100px;
+}
+
+.tabscon{
+  height: 150px;
+  width: 800px;
+}

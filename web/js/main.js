@@ -26,6 +26,7 @@ myImage.onclick = function() {
   }
 }
 
+
 window.onbeforeunload = function(){
   return"确定离开页面吗？";
 }

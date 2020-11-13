@@ -1,7 +1,22 @@
  import Vue from 'vue'
+ import App from './App'
+ import router from './router'
+
+//  const cpnC = {      //创建组件构造器对象
+//      template:`
+//         <div>
+//             <h2>标题</h2>
+//             <p>1123</p>
+//             <p>123</p>
+//         </div>`
+//  }
+
+//  Vue.component('my-cpn',cpnC)  //注册组件
  
  const app = new Vue({
     el:'#app',//用于挂载要管理的元素
+    router:router,
+    render: h=>h(App),
     data:{
         //定义数据
         message:'hello',
@@ -20,17 +35,11 @@
         isUser: true
      },
      computed:{
-         fullName: {
+         fullName: 
              function(){
              return this.firstName + ' ' + this.lastName
              }
-                 // set:function(){
-
-                 // },
-                 // get:function(){
-                 //     return this.firstName + ' ' + this.lastName
-                 // }
-         }
+         
      },
      methods:{
         add: function(){

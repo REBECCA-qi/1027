@@ -52,7 +52,8 @@ module.exports={
     devServer:{
         contentBase:'./dist',
         open: true,
-        hot: true
+        hot: true,
+        hotOnly: true
     },
     resolve:{
         alias:{

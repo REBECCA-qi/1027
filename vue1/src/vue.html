@@ -17,6 +17,7 @@
         <!-- <h1 :style="{fontSize:finalSize + 'px',backgroundColor: finalColor}">{{name}}</h1>  -->
         <!-- <h1 :style="getStyles()">{{name}}</h1> -->
         <h2 v-text="message"></h2>
+        <h2>{{fullName}}</h2>
         <span v-if="isUser">
             <label for="username">用户账号</label>
             <input type="text" id="username" key="username-input" v-model="message">
@@ -26,7 +27,6 @@
             <input type="text" id="email" key="email-input" v-model="message">
         </span>
         <button @click="isUser=!isUser">切换类型</button>
-        <h1>{{fullName}}</h1>
         <ul>
             <li v-for="(item,index) in movies" 
                 :class="{active: currentIndex === index}"
@@ -35,8 +35,6 @@
             </li>
         </ul>
         <h2>当前计数{{counter}}</h2>
-        <!-- <button v-on:click="counter++">+</button>
-        <button v-on:click="counter--">-</button> -->
         <button v-on:click="add">+</button>
         <button v-on:click="sub">-</button>
         <p>{{firstName+' '+lastName}}</p>
@@ -48,3 +46,4 @@
 
 </body>
 </html>
+

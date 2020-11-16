@@ -45,7 +45,7 @@ module.exports = {
     devServer: {
         contentBase: './dist',
         open: true,//自动打开
-        port: 8081,//端口号
+        port: 8082,//端口号
         hot: true,
         hotOnly: true,
     },

@@ -1,0 +1,25 @@
+.user {
+  margin: 50px 30px;
+}
+.user form input,
+select{
+  margin-bottom: 20px;
+}
+.yz {
+  width: 208px;
+  height: 45px;
+}
+.yz .code {
+  width: 85px;
+  height: 45px;
+  background-color: #b6b3b3;
+  line-height: 45px;
+  text-align: center;
+  color: #4a4af8;
+  font-size: 20px;
+}
+i {
+  font-size: 12px;
+  color: #4a4af8;
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.information{
+  width: 793px;
+  height: 502px;
+  background-color: #f6f2f2;
+  margin: 50px auto;
+}
+.navbar {
+  float: left;
+  width:200px;
+  height:500px;
+  border:1px solid #a07755;
+}
+.tabList {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+  cursor: pointer;
+}
+.tabList .active {
+  background-color: #ecd774;
+  color: #fff;
+}
+.tabList li {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+
+}
+.tabCon {
+  float: left;
+  width: 590px;
+  height: 500px;
+  border: 1px solid #a07755;
+  border-left: none;
+  /*background-color: snow;*/
+}
+.item {
+  display: none;
+}
+.show {
+  display: block;
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d24b5626-f261-4a13-8922-6b80200c32b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/information.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/movie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/zp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/information.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/movie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/zp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS过渡、动画、边框、圆角、背景和渐变/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CSS过渡、动画、边框、圆角、背景和渐变/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/tab.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/tab.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高德地图/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/高德地图/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kPZ0O7Al4wXrvcf0fgFexjrotG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/js" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JIAQI\Desktop\mygit\web\js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d24b5626-f261-4a13-8922-6b80200c32b6" name="Default Changelist" comment="" />
+      <created>1605603962987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605603962987</updated>
+      <workItem from="1605603964137" duration="1671000" />
+      <workItem from="1605677320934" duration="20555000" />
+      <workItem from="1605836814341" duration="5382000" />
+      <workItem from="1605881784100" duration="18403000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="857" y="109" width="691" height="666" key="dock-window-1" timestamp="1605963121460">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="857" y="109" width="691" height="666" key="dock-window-1/0.0.1280.680@0.0.1280.680" timestamp="1605963121460" />
+    <state x="-181" y="45" width="854" height="667" key="dock-window-2" timestamp="1605970236523">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="-181" y="45" width="854" height="667" key="dock-window-2/0.0.1280.680@0.0.1280.680" timestamp="1605970236523" />
+  </component>
+</project>

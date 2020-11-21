@@ -3,10 +3,10 @@ ul li {
 }
 
 .tabsbox {
-  float: left;
+
   width: 405px;
-  margin: 0 auto;
-  background-color:rgb(253, 224, 177);
+  margin: 50px auto;
+  background-color: #faf6f6;
   height: 200px;
   border: 1px solid lightsalmon;
   position: relative;
@@ -24,10 +24,11 @@ nav ul li {
   text-align: center;
   border-right: 1px solid  lightsalmon;
   position: relative;
+  cursor:pointer;
 }
 
 nav ul li.liactive {
-  border-bottom: 2px solid rgb(253, 224, 177);
+  border-bottom: 2px solid #faf6f6;
   z-index: 9;
 }
 

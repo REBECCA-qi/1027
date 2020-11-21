@@ -1,0 +1,14 @@
+.mov{
+  width: 300px;
+  height: 200px;
+  margin: 30px auto;
+}
+.mov input {
+  width: 90px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: 2px solid #eae2c9;
+  cursor: pointer;
+}
+

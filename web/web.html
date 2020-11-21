@@ -2,107 +2,138 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ex1</title>
+    <title>迷幻王子</title>
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/information.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/tab.css">
-
+  <link rel="stylesheet" href="css/zp.css">
+  <link rel="stylesheet" href="css/movie.css">
+  <link rel="stylesheet" href="css/user.css">
+  <script src="js/jquery-3.1.0.min.js"></script>
 </head>
 
 <body>
 <div class="header">
   <div class="title">
-    <h1>林宥嘉</h1>
+    <h1>欢迎进入林宥嘉的主页</h1>
   </div>
   <div class="titleButton">
+    <div class="btnall">
     <button>切换用户</button>
+    <input type="button" id="btn" value="点我">
+  </div></div>
+</div>
+
+<div class="information">
+  <div class="navbar">
+    <ul class="tabList">
+      <li class="tab-item active">个人资料</li>
+      <li class="tab-item">专辑作品</li>
+      <li class="tab-item">演唱会片段</li>
+      <li class="tab-item">访客登记</li>
+
+    </ul>
+  </div>
+  <div class="tabCon">
+    <div class="item show">
+      <div class="tabsbox" id="tab">
+            <nav class="fisrstnav">
+              <ul>
+                <li class="liactive">
+                  <span>中文名</span>
+                  <span class="iconfont icon-guanbi"></span>
+                </li>
+                <li>
+                   <span>英文名</span>
+                   <span class="iconfont icon-guanbi"></span>
+                </li>
+                <li>
+                  <span>出生日期</span>
+                  <span class="iconfont icon-guanbi"></span>
+                </li>
+              </ul>
+            </nav>
+            <div class="tabscon">
+              <section class="conactive">林宥嘉</section>
+              <section>YogaLin</section>
+              <section>1987年7月1日</section>
+            </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="zp">
+        <ul>
+          <li>
+            <img src="img/今日营业中.jpg" id="img1"/>
+            </img>
+            <h4>今日营业中</h4>
+            <p>2016-06-17</p>
+         </li>
+         <li>
+            <img src="img/口的形状.jpg" id="img2"/>
+            </img>
+            <h4>口的形状</h4>
+            <p>2014-05-23</p>
+          </li>
+          <li>
+            <img src="img/大小说家.jpg" id="img3"/>
+            <h4>大小说家</h4>
+            <p>2012-06-22</p>
+          </li>
+          <li>
+            <img src="img/美妙生活.jpg" id="img4"/></img>
+            <h4>美妙生活</h4>
+            <p>2011-05-06</p>
+          </li>
+        </ul>
+          </div>
+    </div>
+    <div class="item">
+      <div class="mov">
+              <input type="button" id="videobtn" value="隐藏视频">
+              <video src="视频.MP4" id="mv" controls height="200" muted>
+              </video>
+      </div>
+    </div>
+    <div class="item">
+      <div class="user">
+            <form action="">
+              姓名：<input type="text" placeholder="请输入姓名" required id="userName" ><br/>
+              性别：<input checked type="radio" name="gender">男
+              <input type="radio" name="gender">女<br/>
+              手机号：<input type="tel" placeholder="请输入11位手机号" id="telNum"><br/>
+              邮箱：<input type="email" placeholder="请输入邮箱地址"><br/>
+              密码：<input type="password" placeholder="请输入6-8位密码" id="txtUserPassword" ><br/>
+              生日：<input type="date" placeholder="请输入你的生日"><br/>
+              你最喜欢哪一首歌：<select>
+              <option>《少女》</option>
+              <option>《宠儿》</option>
+              <option>《想自由》</option>
+              <option>《兜圈》</option>
+              <option>《残酷月光》</option>
+              </select><br/>
+              <div class="yz">
+                <div class="code" id="checkCode"></div>
+              </div>
+             验证码： <input type="text" id="inputCode" placeholder="请输入验证码">
+              <i  id="linkbt">看不清，换一张</i>
+              <br>
+
+              <input type="submit" id="btnLogin">
+            </form>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="info">
-  <div class="tabsbox" id="tab">
-    
-    <nav class="fisrstnav">
-      <ul>
-        <li class="liactive">
-          <span>中文名</span>
-          <span class="iconfont icon-guanbi"></span>
-        </li>
-        <li>
-           <span>英文名</span>
-           <span class="iconfont icon-guanbi"></span>
-        </li>
-        <li>
-          <span>出生日期</span>
-          <span class="iconfont icon-guanbi"></span>
-        </li>
-      
-      </ul>
-   </nav>
 
-    <div class="tabscon">
-      <section class="conactive">林宥嘉</section>
-      <section>YogaLin</section>
-      <section>1987年7月1日</section>
-      
-     </div>
-  </div>
-  <div class="user">
-    <div class="usercon">
-    <h3>留下你的足迹</h3><br/>
-    <form action="">
-      姓名：<input type="text" placeholder="请输入姓名" required><br/><br/>
-      手机号：<input type="number" placeholder="请输入手机号" ><br/><br/><br/>
-      <input type="submit">
-    </form>
-    </div>
-    </div>
-</div>
-
-<div class="music">
-  <div class="works">
-  <h3>主要作品</h3>
-    <div class="tb">
-      <ul>
-        <li>
-          <img src="img/今日营业中.jpg" height="150" width="150"/>
-          </img>
-          <h4>今日营业中</h4>
-          <p>2016-06-17</p>
-        </li>
-        <li>
-          <img src="img/口的形状.jpg" height="150" width="150"/>
-          </img>
-          <h4>口的形状</h4>
-          <p>2014-05-23</p>
-        </li>
-        <li>
-          <img src="img/大小说家.jpg" height="150" width="150"/></img>
-          <h4>大小说家</h4>
-          <p>2012-06-22</p>
-        </li>
-        <li>
-          <img src="img/美妙生活.jpg" height="150" width="150"/></img>
-          <h4>美妙生活</h4>
-          <p>2011-05-06</p>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="movie" >
-    <div class="mov">
-      <h3>演唱会片段</h3>
-      <video src="视频.MP4" controls height="200" muted>
-      </video>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<script src="js/main.js"></script>
+<script src="js/header.js"></script>
+<script src="js/information.js"></script>
+<script src="js/zp.js"></script>
+<script src="js/movie.js"></script>
+<script src="js/user.js"></script>
+<!--<script src="js/main.js"></script>-->
 <script src="js/tab.js"></script>
 
 </body>

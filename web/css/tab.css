@@ -1,9 +1,7 @@
 ul li {
   list-style: none;
 }
-
 .tabsbox {
-
   width: 405px;
   margin: 50px auto;
   background-color: #faf6f6;
@@ -38,9 +36,7 @@ nav ul li.liactive {
 }
 
 nav ul li span:last-child {
-  position: absolute;
   user-select: none;
-  font-size: 12px;
   top: -18px;
   right: 0;
   display: inline-block;
